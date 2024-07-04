@@ -24,6 +24,7 @@
 .card__descrição {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 
 .card__botões {
@@ -44,28 +45,28 @@
 }
 
 .descrição__titulo {
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
     color: var(--laranja);
 }
 
+.descrição__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
 
-/* Talvez você também se interesse por... */
+.descrição__texto {
+    font-size: 14px;
+}
 
-position: absolute;
-width: 179px;
-height: 48px;
-left: 0px;
-top: 0px;
+.botões__item {
+    margin: 0 0.5em;
+}
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-
-color: #EB9B00;
-
+.botões__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    text-decoration: none;
+    
+}
