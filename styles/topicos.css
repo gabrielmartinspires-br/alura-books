@@ -2,3 +2,20 @@
     background: var(--azul-degrade);
     text-align: center;
 }
+
+.tópicos__titulo {
+    color: var(--branco);
+    font-weight: 300;
+    
+}
+
+.tópicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tópicos__link {
+    color: var(--branco);
+    background-color: var(--laranja);
+    text-decoration: none;
+}
