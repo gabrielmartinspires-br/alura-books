@@ -7,6 +7,10 @@ hr {
     padding: 1em;
 }
 
+.lista-rodapé {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .rodapé {
         display: flex;
@@ -19,6 +23,11 @@ hr {
         font-family: var(--fonte-principal);
         font-size: 24px;
     }
+
+    .lista-rodapé{
+        display: block;
+    }
+
     .lista-rodapé__titulo {        
         text-transform: uppercase;
         color: var(--cinza-claro);
