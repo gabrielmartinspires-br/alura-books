@@ -68,13 +68,13 @@
         font-family: var(--fonte-secundaria);
         font-size: 30px;
     }
-}
 
-.container__titulo {
-    font-weight: 400;
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
     
-}
-
-.container__titulo--negrito {
-    font-weight: 700;
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
 }
