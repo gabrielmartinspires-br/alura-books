@@ -45,4 +45,12 @@
     .banner__pesquisa {
         width: 35%;
     }
+
+    .banner__pesquisa::placeholder {
+        background-position: 8em;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
 }
