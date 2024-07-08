@@ -11,10 +11,19 @@ hr {
     .rodapé {
         display: flex;
         justify-content: space-between;
+        padding-top: 50px;
     }
-    .rodapé__titulo {        
+    .rodapé__titulo-link {
+        text-decoration: none;
+        color: var(--preto);
         font-family: var(--fonte-principal);
         font-size: 24px;
-        color: var(--preto);
     }
+    .lista-rodapé__titulo {        
+        text-transform: uppercase;
+        color: var(--cinza);
+        font-size: 14px;
+    }
+    
+
 }
